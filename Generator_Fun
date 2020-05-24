@@ -5,7 +5,7 @@ def lottery():
     for i in range(8):
         yield random.randint(1,20)
         
-#returns a 9 number between 1 and 99
+#returns a 9th number between 1 and 99
     yield random.randint(1,99)
     
     
