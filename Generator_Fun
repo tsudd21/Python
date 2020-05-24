@@ -1,0 +1,13 @@
+import random
+def lottery():
+
+#returns 8 number between 1 and 20
+    for i in range(8):
+        yield random.randint(1,20)
+        
+#returns a 9 number between 1 and 99
+    yield random.randint(1,99)
+    
+    
+for random_number in lottery():
+        print("And the prize numbers are...%d"  %(random_number))
